@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="de">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>AppWerk - Software Entwicklung von Marvin Ahlgrimm</title>
-      <meta name="description" content="Ihre Anlaufstelle für maßgeschneiderte Software, die nicht nur effizient, sondern auch CO2-freundlich ist. Ich bieten individuelle Lösungen, die genau auf Ihre Bedürfnisse zugeschnitten sind.">
-   </head>
-   <body>
-      <nav style="display: flex;justify-content: space-between;max-width: 1300px;margin: 0 auto;border-bottom: 1px lightgray solid;padding: 5px 3rem 10px;align-items: center;">
-         <img src="/app-werk.svg" height="70">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>AppWerk - Software Entwicklung von Marvin Ahlgrimm</title>
+   <meta name="description"
+      content="Ihre Anlaufstelle für maßgeschneiderte Software, die nicht nur effizient, sondern auch CO2-freundlich ist. Ich bieten individuelle Lösungen, die genau auf Ihre Bedürfnisse zugeschnitten sind.">
+   <link rel="stylesheet" href="/assets/modern-normalize.css">
+   <link rel="stylesheet" href="/assets/styles.css">
+</head>
+
+<body>
+   <header>
+      <nav>
+         <picture>
+            <source srcset="/assets/images/logo-t.svg" media="(min-width: 901px)">
+            <source srcset="/assets/images/logo.svg">
+            <img src="/assets/images/logo.svg" alt="Maßgeschneiderte Software Entwicklung" height="70" width="70">
+         </picture>
          <ul>
             <li>Test</li>
          </ul>
+         <img class="menu-button" src="/assets/images/hamburger.svg" alt="Menu Icon">
       </nav>
-      <h1>Maßgeschneiderte Software Entwicklung</h1>
-      <h2>erstellt von Marvin Ahlgrimm</h2>
-      <div>
-         <p>
-            Diese Seite wird aktuell noch erstellt
-         </p>
+      <div id="hero">
+         <div class="hero-wrap">
+            <h1>Maßgeschneiderte Software Entwicklung</h1>
+            <h2>
+               Verwandeln Sie Ihre Vision in effiziente und innovative Softwarelösungen.
+            </h2>
+            <a href="/contact" class="button" data-size="large">
+               Jetzt anfragen
+            </a>
+         </div>
       </div>
-   </body>
-   <style type="text/css"></style>
+   </header>
+</body>
+<style type="text/css"></style>
+
 </html>
