@@ -60,7 +60,7 @@ header {
     background-size: cover;
     display: flex;
     flex-direction: column;
-    background-position: -25rem;
+    background-position-x: center;
 }
 
 #hero {
@@ -120,7 +120,12 @@ h2 {
         background-position-x: 0;
     }
 
+    h1 {
+        font-size: 2.3rem;
+    }
+
     h2 {
+        font-size: 1.5rem;
         line-height: 150%;
     }
 
@@ -147,6 +152,7 @@ h2 {
     nav {
         justify-content: space-between;
         background: #ffffff;
+        padding: 0.55rem 4rem;
     }
 
     nav ul {
