@@ -196,6 +196,14 @@ h2 {
         margin-right: auto;
     }
 
+    .is-5-12-desktop {
+        width: calc((100% / 12) * 5);
+    }
+
+    .is-7-12-desktop {
+        width: calc((100% / 12) * 7);
+    }
+
     header {
         background-position-x: 0;
     }
