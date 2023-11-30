@@ -167,6 +167,32 @@ h2 {
     font-size: 1.4rem;
 }
 
+footer {
+    background: var(--second);
+    color: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1.5rem;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #f9f9f9;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #f9f9f9c4;
+}
+
+#footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    gap: 0.5rem;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #hero {
@@ -322,13 +348,13 @@ h2 {
     .row.gap .is-three {
         width: calc((100% / 3) - ((2/3)* 0.65rem));
     }
-}
 
-footer {
-    background: var(--second);
-    color: #f9f9f9;
-    padding: 1rem;
-    margin-top: 1.5rem;
+    #footer-content {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1rem;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
