@@ -135,7 +135,7 @@ header {
 }
 
 .about {
-    margin-bottom: 10rem;
+    margin-bottom: 1rem;
     background: #fff;
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -322,6 +322,13 @@ h2 {
     .row.gap .is-three {
         width: calc((100% / 3) - ((2/3)* 0.65rem));
     }
+}
+
+footer {
+    background: var(--second);
+    color: #f9f9f9;
+    padding: 1rem;
+    margin-top: 1.5rem;
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
