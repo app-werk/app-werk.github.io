@@ -365,6 +365,10 @@ footer a:hover {
         padding: 2rem 0;
     }
 
+    .row.dense {
+        padding: 0.75rem 0;
+    }
+
     .row.gap {
         gap: 0.65rem
     }
