@@ -5,6 +5,21 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100dvh;
+}
+
+main {
+    flex: 1;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Albert Sans', sans-serif;
 }
 
 a {
@@ -105,8 +120,15 @@ header {
     margin-bottom: 0.5rem;
 }
 
+img {
+    max-width: 100%;
+}
+
+img.teal {
+    filter: invert(69%) sepia(26%) saturate(989%) hue-rotate(131deg) brightness(89%) contrast(86%);
+}
+
 .about-icon img {
-    width: 100%;
     padding: 0.85rem;
 }
 
@@ -150,7 +172,7 @@ header {
 }
 
 #hero .button {
-    margin-top: 3rem;
+    margin-top: 1.25rem;
 }
 
 #hero-wrap {
@@ -201,6 +223,16 @@ footer a:hover {
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .row-img {
+        width: 25%;
+    }
+
+    .row.mobile {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
     }
 
     .text-center-mobile {
